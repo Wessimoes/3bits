@@ -26,7 +26,7 @@
 		let mailOptions = {
 			from: email_sender,
 			to: config.email,
-			subject: 'Teste',
+			subject: 'Send by ' + name,
 			html: message
 		};
 
